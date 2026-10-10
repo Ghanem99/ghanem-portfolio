@@ -27,10 +27,9 @@
 
 *{box-sizing:border-box;margin:0}
 
-html{
-  scroll-behavior:smooth;
-  scroll-snap-type:y proximity;
-  scroll-padding-top:var(--header-height);
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: var(--header-height);
 }
 
 body{
@@ -137,8 +136,6 @@ nav a:hover,nav a:focus-visible{color:var(--ink)}
 main>section.panel{
   min-height:calc(100vh - var(--header-height));
   min-height:calc(100svh - var(--header-height));
-  scroll-snap-align:start;
-  scroll-margin-top:var(--header-height);
   padding:32px 0 24px;
   display:block;
 }
