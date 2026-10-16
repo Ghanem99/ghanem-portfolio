@@ -1516,11 +1516,18 @@ tools: [
 
   templates: [
     {
-        title: "Project Management Plan|خطة إدارة المشروع",
+        title: "Project Management Framework | إطار عمل لإدارة المشاريع البرمجية",
         desc: "A structured framework for project planning, execution, monitoring, and delivery.|إطار عمل متكامل لتخطيط المشروع وتنفيذه ومتابعته حتى التسليم.",
         fmt: "DOCX",
         preview: "templates/Project Management Framework Guide v2.pdf",
         file: "templates/Project Management Framework Guide v2.pdf"
+    },
+    {
+    title: "Project Proposal | العرض المقدم للعميل",
+    desc: "A template for presenting the project idea, objectives, scope, deliverables, timeline, and estimated budget.|قالب لعرض فكرة المشروع وأهدافه ونطاق العمل والمخرجات والجدول الزمني والتكلفة التقديرية.",
+    fmt: "Google Docs",
+    preview: "templates/proposal.jpg",
+    file: "https://docs.google.com/document/d/1ZwVwDexRGLlYaFoSTJUOBy5-OtjiosYvrgUa9mCtCc8/edit?tab=t.0"
     },
     {
     title: "Time and Cost Estimation | تقدير وقت وتكلفة المشروع",
@@ -1676,7 +1683,7 @@ function render() {
       ? '<a class="btn p" href="' +
         escapeHtml(template.sheet) +
         '" target="_blank" rel="noopener noreferrer">' +
-        tr("Open Google Sheet|اذهب إلى Google Sheets") +
+        tr("Open Google Sheet|اذهب للرابط") +
         '</a>'
       : "";
 
